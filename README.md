@@ -1,2 +1,2 @@
-# Central-Bank-Meeting-Dates
-This repository contains CSV files of 18 central bank meeting dates, marked as monetary policy meetings, projection/inflation material, and minute release dates.
+# Central Bank Meeting Dates
+See below for notes on each CSV file. Every central bank operates distinctly, and many of their policy changes over time. This data is featured in "Who's the Leader? Evaluating International Monetary Policy Spillovers" (Weiland & Yeo 2024)
