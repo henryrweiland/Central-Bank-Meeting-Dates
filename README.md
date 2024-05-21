@@ -14,6 +14,7 @@ Range: 1980-2023.
 
 ## Bank of England (BOE)
 Range: 2000-2023.
+
 **The BOE switched policies on 08/06/2015. Before, they held a MP decision meeting, released minutes with a 1-2 week lag, and then projection materials 2-4 weeks later. After 08/06/2015, the BOE released all three (decision, projection materials, minutes) on every MP day.**
 - **boe_activity_date**: Corresponds to all BOE activity: regularly scheduled meetings, projection materials, and minute releases.
 - **boe_meeting_date_indicator**: Equals 1 for regularly/non-scheduled meetings and 0 for projection material/minute releases before 08/06/2015.
@@ -31,6 +32,7 @@ Range: 2000-2023.
 
 ## Bank of Canada (BOC)
 Range: 2000-2023.
+
 **The BOC does not release minutes, only projection materials.**
 - **boc_activity_date**: Corresponds to all BOC activity: regularly scheduled meetings.
 - **boc_meeting_date_indicator**: Equals 1 for regularly scheduled meetings (there are no non-scheduled BOC meetings in sample).
