@@ -9,7 +9,7 @@ This data is featured in *"Who's the Leader? Evaluating International Monetary P
 - **fomc_meeting_date_indicator**: Equals 1 for regularly scheduled meetings/conference calls and 0 for minute releases.
 - **fomc_non_scheduled_meeting_date_indicator**: Equals 1 for conference calls and 0 for regularly scheduled meetings.
 - **fomc_projection_materials_indicator**: Equals 1 for FOMC meetings accompanied by projection materials (4 times annually, starting in 2009), 0 otherwise.
-- **fomc_minutes_date_indicator**: Equals 1 for minute releases (usually with a lag after policy meetings), 0 otherwise. \
+- **fomc_minutes_date_indicator**: Equals 1 for minute releases (usually with a lag after policy meetings), 0 otherwise.
 
 Source: FOMC website.
 
@@ -19,7 +19,7 @@ Source: FOMC website.
 - **boe_meeting_date_indicator**: Equals 1 for regularly/non-scheduled meetings and 0 for projection material/minute releases before 08/06/2015.
 - **boe_non_scheduled_meeting_date_indicator**: Equals 1 for non-scheduled meetings and 0 for regularly scheduled meetings.
 - **boe_projection_materials_indicator**: Equals 1 for BOE meetings accompanied by projection/inflation materials. Note the policy change stated above.
-- **boe_minutes_date_indicator**: Equals 1 for minute releases, 0 otherwise. Note the policy change stated above. \
+- **boe_minutes_date_indicator**: Equals 1 for minute releases, 0 otherwise. Note the policy change stated above.
 
 Source: BOE website.
 
