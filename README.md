@@ -19,4 +19,9 @@ This data is featured in *"Who's the Leader? Evaluating International Monetary P
 - **boe_projection_materials_indicator**: Equals 1 for BOE meetings accompanied by projection/inflation materials. Note the policy change stated above.
 - **boe_minutes_date_indicator**: Equals 1 for minute releases, 0 otherwise. Note the policy change stated above.
 
+## Bank of Canada (BOC)
+**The BOC does not release minutes, only projection materials.**
+- **boc_activity_date**: Corresponds to all BOC activity: regularly scheduled meetings.
+- **boc_meeting_date_indicator**: Equals 1 for regularly scheduled meetings (there are no non-scheduled BOC meetings in sample).
+- **boe_projection_materials_indicator**: Equals 1 for BOC meetings accompanied by projection/inflation materials.
 
