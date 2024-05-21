@@ -1,4 +1,4 @@
-"fomc_meeting_date","fomc_meeting_date_indicator","fomc_non_scheduled_meeting_indicator","fomc_projection_materials_indicator","fomc_minutes_date_indicator"
+"fomc_activity_date","fomc_meeting_date_indicator","fomc_non_scheduled_meeting_indicator","fomc_projection_materials_indicator","fomc_minutes_date_indicator"
 1980-01-09,1,0,0,0
 1980-02-05,1,0,0,0
 1980-02-22,1,1,0,0
