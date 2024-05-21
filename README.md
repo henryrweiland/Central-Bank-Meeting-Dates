@@ -19,9 +19,17 @@ This data is featured in *"Who's the Leader? Evaluating International Monetary P
 - **boe_projection_materials_indicator**: Equals 1 for BOE meetings accompanied by projection/inflation materials. Note the policy change stated above.
 - **boe_minutes_date_indicator**: Equals 1 for minute releases, 0 otherwise. Note the policy change stated above.
 
+## European Central Bank (ECB)
+- **ecb_activity_date**: Corresponds to all ECB activity: regularly scheduled meetings, non-regularly scheduled meetings, and minute releases.
+- **ecb_meeting_date_indicator**: Equals 1 for regularly scheduled/non-scheduled meetings and 0 for minute releases.
+- **ecb_non_scheduled_meeting_date_indicator**: Equals 1 for non-scheduled meetings and 0 for regularly scheduled meetings (only one such date in sample).
+- **ecb_projection_materials_indicator**: Equals 1 for FOMC meetings accompanied by projection materials (first released in 2005).
+- **ecb_minutes_date_indicator**: Equals 1 for minute releases (first released in 2015, usually with a lag after policy meetings), 0 otherwise.
+
 ## Bank of Canada (BOC)
 **The BOC does not release minutes, only projection materials.**
 - **boc_activity_date**: Corresponds to all BOC activity: regularly scheduled meetings.
 - **boc_meeting_date_indicator**: Equals 1 for regularly scheduled meetings (there are no non-scheduled BOC meetings in sample).
 - **boe_projection_materials_indicator**: Equals 1 for BOC meetings accompanied by projection/inflation materials.
+
 
