@@ -5,7 +5,7 @@ See below for notes on each CSV file. **Every central bank operates distinctly, 
 This data is featured in *"Who's the Leader? Evaluating International Monetary Policy Spillovers"* (Weiland & Yeo 2024).
 
 ## Federal Reserve (Fed)
-Range: 1980-2023.
+Range: 1975-2023.
 - **fomc_activity_date**: Corresponds to all FOMC activity: regularly scheduled meetings, conference calls, and minute releases.
 - **fomc_meeting_date_indicator**: Equals 1 for regularly scheduled meetings/conference calls and 0 for minute releases.
 - **fomc_non_scheduled_meeting_date_indicator**: Equals 1 for conference calls and 0 for regularly scheduled meetings.
