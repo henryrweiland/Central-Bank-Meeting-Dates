@@ -10,4 +10,5 @@ This data is featured in *"Who's the Leader? Evaluating International Monetary P
 - **FOMC_Non_Scheduled_Meeting_Date_Indicator**: Equals 1 for conference calls and 0 for regularly scheduled meetings.
 - **FOMC_Projection_Materials_Indicator**: Equals 1 for FOMC meetings accompanied by projection materials (4 times annually, starting in 2009), 0 otherwise.
 - **FOMC_Minutes_Date_Indicator**: Equals 1 for minute releases (usually with a lag after policy meetings), 0 otherwise. \
+
 Source: FOMC website.
