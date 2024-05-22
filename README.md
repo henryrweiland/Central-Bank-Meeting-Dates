@@ -30,6 +30,14 @@ Range: 2000-2023.
 - **ecb_projection_materials_indicator**: Equals 1 for FOMC meetings accompanied by projection materials (first released in 2005).
 - **ecb_minutes_date_indicator**: Equals 1 for minute releases (first released in 2015, usually with a lag after policy meetings), 0 otherwise.
 
+## Bundesbank (Buba)
+Range: 1975-1988.
+
+**The Bundesbank met ~24 times anually, though not all of their meetings correspond to policy decisions. Historical minutes from the Bundesbank archive were only available until 1988.**
+- **buba_activity_date**: Corresponds to all Buba activity: regularly scheduled meetings.
+- **buba_meeting_date_indicator**: Equals 1 for regularly scheduled meetings (all samples are 1. It is unknown if any of the meetings were unscheduled).
+- **buba_policy_decision_indicator**: Equals 1 for Buba meetings with significant policy decision (interest rate, reserve requirements, monetary supply, etc.), 0 otherwise (which corresponds to meetings only with discussion). In order to classify each meeting, the minutes (in German) were summarized by GPT 3.5 and hand-coded either 0 or 1.
+
 ## Bank of Canada (BOC)
 Range: 2000-2023.
 
