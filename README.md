@@ -72,3 +72,13 @@ Range: 2000-2023.
 - **rbnz_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise (there are no unscheduled meetings in sample).
 - **rbnz_projection_materials_indicator**: Equals 1 for date of RBNZ projection material release (released on date of MP meeting), 0 otherwise.
 
+## Bank of Mexico (Banxico)
+Range: 2000-2023 (monetary policy meetings, projection materials), 2018-2023 (minutes).
+
+Note: Banxico releases their MP decision, projection materials, and minutes on separate days, much like the BOE before 2015.
+
+- **banxico_activity_date**: Corresponds to all Banxico activity: regularly scheduled meetings, projection materials, and minute releases.
+- **banxico_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise (there are no unscheduled meetings in sample).
+- **banxico_projection_materials_indicator**: Equals 1 for date of Banxico projection material release (released with a lag), 0 otherwise.
+- **banxico_minutes_dates_indicator**: Equals 1 for date of Banxico minute release (released with a lag), 0 otherwise.
+
