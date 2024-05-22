@@ -63,4 +63,12 @@ Range: 2006-2023.
 - **rba_projection_materials_indicator**: Equals 1 for date of RBA projection material release (released with a lag), 0 otherwise.
 - **rba_minutes_date_indicator**: Equals 1 for date of RBA minute release (released with a lag), 0 otherwise.
 
+## Reserve Bank of New Zealand (RBNZ)
+Range: 2000-2023.
+
+**The RBNZ does not release minutes.**
+
+- **rbnz_activity_date**: Corresponds to all RBNZ activity: regularly scheduled meetings.
+- **rbnz_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise (there are no unscheduled meetings in sample).
+- **rbnz_projection_materials_indicator**: Equals 1 for date of RBNZ projection material release (released on date of MP meeting), 0 otherwise.
 
