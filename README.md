@@ -27,7 +27,7 @@ Range: 2000-2023.
 - **ecb_activity_date**: Corresponds to all ECB activity: regularly scheduled meetings, non-regularly scheduled meetings, and minute releases.
 - **ecb_meeting_date_indicator**: Equals 1 for regularly scheduled/non-scheduled meetings and 0 for minute releases.
 - **ecb_non_scheduled_meeting_date_indicator**: Equals 1 for non-scheduled meetings and 0 for regularly scheduled meetings (only one such date in sample).
-- **ecb_projection_materials_indicator**: Equals 1 for FOMC meetings accompanied by projection materials (first released in 2005).
+- **ecb_projection_materials_indicator**: Equals 1 for ECB meetings accompanied by projection materials (first released in 2005).
 - **ecb_minutes_date_indicator**: Equals 1 for minute releases (first released in 2015, usually with a lag after policy meetings), 0 otherwise.
 
 ## Bundesbank (Buba)
@@ -49,10 +49,18 @@ Range: 2000-2023.
 ## Bank of Japan (BOJ)
 Range: 2000-2023.
 
-- **boj_activity_date**: Corresponds to all BOJ activity: regularly and non-regularly scheduled meetings.
+- **boj_activity_date**: Corresponds to all BOJ activity: regularly/non-regularly scheduled meetings and minute releases.
 - **boj_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise.
 - **boj_non_scheduled_meeting_date_indicator**: Equals 1 for non-scheduled meetings and 0 for regularly scheduled meetings.
 - **boj_projection_materials_indicator**: Equals 1 for BOJ meetings accompanied by projection/inflation materials.
-- **boj_minutes_date_indicator**: Equals 1 for minute releases (released with a lag), 0 otherwise
+- **boj_minutes_date_indicator**: Equals 1 for minute releases (released with a lag), 0 otherwise.
+
+## Reserve Bank of Australia (RBA)
+Range: 2006-2023.
+
+- **rba_activity_date**: Corresponds to all RBA activity: regularly scheduled meetings, projection materials and minute releases (latter two are on separate days from monetary policy meetings).
+- **rba_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise.
+- **rba_projection_materials_indicator**: Equals 1 for date of RBA projection material release (released with a lag), 0 otherwise.
+- **rba_minutes_date_indicator**: Equals 1 for date of RBA minute release (released with a lag), 0 otherwise.
 
 
