@@ -85,8 +85,16 @@ Note: Banxico releases their MP decision, projection materials, and minutes on s
 ## Central Bank of Chile (CBC)
 Range: 2000-2023
 
-Note: CBC also releases minutes with a two-week lag, but the exact dates were not able to be obtained. Before 2018, the CBC released their projection materials with a delay after MP meetings, but after 2018, they released projection materials concurrently.
+**The CBC also releases minutes with a two-week lag, but the exact dates were not able to be obtained. Before 2018, the CBC released their projection materials with a delay after MP meetings, but after 2018, they released projection materials concurrently.**
 
 - **cbc_activity_date**: Corresponds to all CBC activity: regularly scheduled meetings and projection materials.
 - **cbc_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise (there are no unscheduled meetings in sample).
 - **cbc_projection_materials_indicator**: Equals 1 for date of CBC projection material release (released with a lag before 2018), 0 otherwise.
+
+## Central Bank of Colombia (BanRep)
+Range: 2000-2023 (projection materials), 2008-2023 (meetings and minutes)
+
+- **banrep_activity_date**: Corresponds to all BanRep activity: regularly scheduled meetings, projection materials and minute releases.
+- **banrep_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise (there are no unscheduled meetings in sample).
+- **banrep_projection_materials_indicator**: Equals 1 for date of BanRep projection material release (released with varying lag over the sample), 0 otherwise.
+- **banrep_minutes_dates_indicator**: Equals 1 for date of BanRep minute release (released with varying lag over the sample), 0 otherwise.
