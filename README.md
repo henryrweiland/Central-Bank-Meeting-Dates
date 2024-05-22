@@ -44,6 +44,15 @@ Range: 2000-2023.
 **The BOC does not release minutes, only projection materials.**
 - **boc_activity_date**: Corresponds to all BOC activity: regularly scheduled meetings.
 - **boc_meeting_date_indicator**: Equals 1 for regularly scheduled meetings (there are no non-scheduled BOC meetings in sample).
-- **boe_projection_materials_indicator**: Equals 1 for BOC meetings accompanied by projection/inflation materials.
+- **boc_projection_materials_indicator**: Equals 1 for BOC meetings accompanied by projection/inflation materials.
+
+## Bank of Japan (BOJ)
+Range: 2000-2023.
+
+- **boj_activity_date**: Corresponds to all BOJ activity: regularly and non-regularly scheduled meetings.
+- **boj_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise.
+- **boj_non_scheduled_meeting_date_indicator**: Equals 1 for non-scheduled meetings and 0 for regularly scheduled meetings.
+- **boj_projection_materials_indicator**: Equals 1 for BOJ meetings accompanied by projection/inflation materials.
+- **boj_minutes_date_indicator**: Equals 1 for minute releases (released with a lag), 0 otherwise
 
 
