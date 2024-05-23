@@ -98,3 +98,13 @@ Range: 2000-2023 (projection materials), 2008-2023 (meetings and minutes)
 - **banrep_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise (there are no unscheduled meetings in sample).
 - **banrep_projection_materials_indicator**: Equals 1 for date of BanRep projection material release (released with varying lag over the sample), 0 otherwise.
 - **banrep_minutes_dates_indicator**: Equals 1 for date of BanRep minute release (released with varying lag over the sample), 0 otherwise.
+
+## Bank of Israel (BOI)
+Range: 2006-2023 (meetings and minutes), 2014-2023 (projection materials)
+
+**Bank of Israel Law 5770-2010 established the monetary policy committee, which started holding meetings in 2011, but the Governor still made interest rate announcements, which are recorded dating back to 2006. Minutes were previously released with a lag after MP meetings, but starting in 2018, they were released concurrently.**
+
+- **boi_activity_date**: Corresponds to all BOI activity: regularly scheduled meetings, projection materials and minute releases.
+- **boi_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise (there are no unscheduled meetings in sample).
+- **boi_projection_materials_indicator**: Equals 1 for date of BOI projection material release (relased bi-anually with a lag), 0 otherwise.
+- **boi_minutes_dates_indicator**: Equals 1 for date of BOI minute release, 0 otherwise. Note the policy change stated above.
