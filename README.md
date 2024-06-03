@@ -4,6 +4,8 @@ See below for notes on each CSV file. **Every central bank operates distinctly, 
 
 This data is featured in *"Who's the Leader? Evaluating International Monetary Policy Spillovers"* (Weiland & Yeo 2024).
 
+A useful resource can also be found on the [BIS website]([https://www.bis.org/](https://www.bis.org/mc/currency_areas.htm)).
+
 ## Federal Reserve (Fed)
 Range: 1975-2023.
 - **fed_activity_date**: Corresponds to all FOMC activity: regularly scheduled meetings, conference calls, and minute releases.
