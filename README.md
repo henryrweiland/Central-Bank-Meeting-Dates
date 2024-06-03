@@ -133,3 +133,13 @@ Range: 2000-2023 (meetings), 2014-2023 (projection materials), 2016-2023 (minute
 - **rbi_projection_materials_indicator**: Equals 1 for date of RBI projection material release (relased bi-anually on same day as MPC meeting), 0 otherwise. Note the policy change stated above.
 - **rbi_minutes_dates_indicator**: Equals 1 for date of RBI minute release (released with two week lag), 0 otherwise. Note the policy change stated above.
 
+## Bank of Thailand (RBI)
+Range: 2000-2023 (meetings), 2011-2023 (minutes)
+
+**The BOT publishes a quarterly MP report, but release dates were not able to be obatined. Moreover, it appears that a Thai version of the MP report is released one week before the English version, making it unclear how information from the publication is disseminated.**
+
+- **bot_activity_date**: Corresponds to all BOT activity: regularly scheduled meetings and minute releases.
+- **bot_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise (there are 2 unscheduled meetings in sample).
+- **bot_non_scheduled_meeting_date_indicator**: Equals 1 for non-scheduled (surprise) meetings and 0 for regularly scheduled meetings.
+- **bot_minutes_dates_indicator**: Equals 1 for date of BOT minute release (released with two week lag), 0 otherwise.
+
