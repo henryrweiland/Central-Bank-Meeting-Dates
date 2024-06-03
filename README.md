@@ -4,6 +4,8 @@ See below for notes on each CSV file. **Every central bank operates distinctly, 
 
 This data is featured in *"Who's the Leader? Evaluating International Monetary Policy Spillovers"* (Weiland & Yeo 2024).
 
+A useful resource can also be found on the [BIS website](https://www.bis.org/mc/currency_areas.htm).
+
 ## Federal Reserve (Fed)
 Range: 1975-2023.
 - **fed_activity_date**: Corresponds to all FOMC activity: regularly scheduled meetings, conference calls, and minute releases.
@@ -108,3 +110,12 @@ Range: 2006-2023 (meetings and minutes), 2014-2023 (projection materials)
 - **boi_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise (there are no unscheduled meetings in sample).
 - **boi_projection_materials_indicator**: Equals 1 for date of BOI projection material release (relased bi-anually with a lag), 0 otherwise.
 - **boi_minutes_dates_indicator**: Equals 1 for date of BOI minute release, 0 otherwise. Note the policy change stated above.
+
+## South African Reserve Bank (SARB)
+Range: 2000-2023
+
+**The SARB does not publish minutes after MPC meetings.**
+
+- **sarb_activity_date**: Corresponds to all SARB activity: regularly scheduled meetings and projection materials.
+- **sarb_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise (there are no unscheduled meetings in sample).
+- **sarb_projection_materials_indicator**: Equals 1 for date of SARB projection material release (relased quarterly with a lag), 0 otherwise.
