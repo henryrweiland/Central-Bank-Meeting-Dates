@@ -110,3 +110,12 @@ Range: 2006-2023 (meetings and minutes), 2014-2023 (projection materials)
 - **boi_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise (there are no unscheduled meetings in sample).
 - **boi_projection_materials_indicator**: Equals 1 for date of BOI projection material release (relased bi-anually with a lag), 0 otherwise.
 - **boi_minutes_dates_indicator**: Equals 1 for date of BOI minute release, 0 otherwise. Note the policy change stated above.
+
+## South African Reserve Bank (SARB)
+Range: 2000-2023
+
+**The SARB does not publish minutes after MPC meetings.**
+
+- **sarb_activity_date**: Corresponds to all SARB activity: regularly scheduled meetings and projection materials.
+- **sarb_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise (there are no unscheduled meetings in sample).
+- **sarb_projection_materials_indicator**: Equals 1 for date of SARB projection material release (relased quarterly with a lag), 0 otherwise.
