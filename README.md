@@ -18,6 +18,7 @@ Range: 1975-2023.
 Range: 2000-2023.
 
 **The BOE switched policies on 08/06/2015. Before, they held a MP decision meeting, released minutes with a 1-2 week lag, and then projection materials 2-4 weeks later. After 08/06/2015, the BOE released all three (decision, projection materials, minutes) on every MP day.**
+
 - **boe_activity_date**: Corresponds to all BOE activity: regularly scheduled meetings, projection materials, and minute releases.
 - **boe_meeting_date_indicator**: Equals 1 for regularly/non-scheduled meetings and 0 for projection material/minute releases before 08/06/2015.
 - **boe_non_scheduled_meeting_date_indicator**: Equals 1 for non-scheduled meetings and 0 for regularly scheduled meetings.
@@ -35,7 +36,8 @@ Range: 2000-2023.
 ## Bundesbank (Buba)
 Range: 1975-1988.
 
-**The Bundesbank met ~24 times anually, though not all of their meetings correspond to policy decisions. Historical minutes from the Bundesbank archive were only available until 1988.**
+**The Bundesbank met ~24 times anually, though not all of their meetings correspond to policy decisions. Historical minutes from the Bundesbank archive were only available as recent as 1988.**
+
 - **buba_activity_date**: Corresponds to all Buba activity: regularly scheduled meetings.
 - **buba_meeting_date_indicator**: Equals 1 for regularly scheduled meetings (all samples are 1. It is unknown if any of the meetings were unscheduled).
 - **buba_policy_decision_indicator**: Equals 1 for Buba meetings with significant policy decision (interest rate, reserve requirements, monetary supply, etc.), 0 otherwise (which corresponds to meetings only with discussion). In order to classify each meeting, the minutes (in German) were summarized by GPT 3.5 and hand-coded either 0 or 1.
@@ -43,7 +45,8 @@ Range: 1975-1988.
 ## Bank of Canada (BOC)
 Range: 2000-2023.
 
-**The BOC does not release minutes, only projection materials.**
+**The BOC does not release minutes after MPC meetings, only projection materials.**
+
 - **boc_activity_date**: Corresponds to all BOC activity: regularly scheduled meetings.
 - **boc_meeting_date_indicator**: Equals 1 for regularly scheduled meetings (there are no non-scheduled BOC meetings in sample).
 - **boc_projection_materials_indicator**: Equals 1 for BOC meetings accompanied by projection/inflation materials.
@@ -68,7 +71,7 @@ Range: 2006-2023.
 ## Reserve Bank of New Zealand (RBNZ)
 Range: 2000-2023.
 
-**The RBNZ does not release minutes.**
+**The RBNZ does not release minutes after MPC meetings.**
 
 - **rbnz_activity_date**: Corresponds to all RBNZ activity: regularly scheduled meetings.
 - **rbnz_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise (there are no unscheduled meetings in sample).
@@ -119,3 +122,14 @@ Range: 2000-2023
 - **sarb_activity_date**: Corresponds to all SARB activity: regularly scheduled meetings and projection materials.
 - **sarb_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise (there are no unscheduled meetings in sample).
 - **sarb_projection_materials_indicator**: Equals 1 for date of SARB projection material release (relased quarterly with a lag), 0 otherwise.
+
+## Reserve Bank of India (RBI)
+Range: 2000-2023 (meetings), 2014-2023 (projection materials), 2016-2023 (minutes)
+
+**The RBI switched policies starting in 2014. Before, they released an annual MP statement, followed by a first, second, and third quarter review (with no projection materials or minutes). They then switched to six annual MP meetings, with bi-annual projection material releases (April and October), and regular minutes starting in 2016. Before 2014, mid-quarter reviews were not accounted for as RBI activity.**
+
+- **rbi_activity_date**: Corresponds to all RBI activity: regularly scheduled meetings, projection materials, and minute releases.
+- **rbi_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise (there are no unscheduled meetings in sample).
+- **rbi_projection_materials_indicator**: Equals 1 for date of RBI projection material release (relased bi-anually on same day as MPC meeting), 0 otherwise. Note the policy change stated above.
+- **rbi_minutes_dates_indicator**: Equals 1 for date of RBI minute release (released with two week lag), 0 otherwise. Note the policy change stated above.
+
