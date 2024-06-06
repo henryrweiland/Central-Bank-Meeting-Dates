@@ -143,3 +143,14 @@ Range: 2000-2023 (meetings), 2011-2023 (minutes)
 - **bot_non_scheduled_meeting_date_indicator**: Equals 1 for non-scheduled (surprise) meetings and 0 for regularly scheduled meetings.
 - **bot_minutes_dates_indicator**: Equals 1 for date of BOT minute release (released with two week lag), 0 otherwise.
 
+## Bank of Korea (BOK)
+Range: 2000-2023 (meetings), 2010-2023 (projection materials, minutes)
+
+**The BOK first publishes projection materials in Korean then in English a couple of weeks later. The projection material dates correspond to the initial Korean version. Moreover, it is unclear if the minutes on the website correspond to a Korean version or English version (with an extra lag).**
+
+- **bok_activity_date**: Corresponds to all BOK activity: regularly scheduled meetings and minute releases.
+- **bok_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise (there is 1 unscheduled meetings in sample).
+- **bok_non_scheduled_meeting_date_indicator**: Equals 1 for non-scheduled meetings and 0 for regularly scheduled meetings.
+- **bok_projection_materials_indicator**: Equals 1 for date of BOK projection material release (relased bi-anually with lag), 0 otherwise. See the note above.
+- **bok_minutes_dates_indicator**: Equals 1 for date of BOK minute release (released with lag), 0 otherwise. See the note above.
+
