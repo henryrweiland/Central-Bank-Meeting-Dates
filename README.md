@@ -154,3 +154,12 @@ Range: 2000-2023 (meetings), 2010-2023 (projection materials, minutes)
 - **bok_projection_materials_indicator**: Equals 1 for date of BOK projection material release (relased bi-anually with lag), 0 otherwise. See the note above.
 - **bok_minutes_dates_indicator**: Equals 1 for date of BOK minute release (released with lag), 0 otherwise. See the note above.
 
+## Central Bank of the Republic of China - Taiwan (CBRC)
+Range: 2001-2023 (meetings), 2017-2023 (minutes)
+
+**The CBRC does not publish projection materials.**
+
+- **cbrc_activity_date**: Corresponds to all CBRC activity: regularly scheduled meetings and minute releases.
+- **cbrc_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise (there are no unscheduled meetings in sample).
+- **cbrc_minutes_dates_indicator**: Equals 1 for date of CBRC minute release (released with lag), 0 otherwise.
+
