@@ -8,10 +8,10 @@ A useful resource can also be found on the [BIS website](https://www.bis.org/mc/
 
 ## Federal Reserve (Fed)
 Range: 1975-2023.
-- **fed_activity_date**: Corresponds to all FOMC activity: regularly scheduled meetings, conference calls, and minute releases.
+- **fed_activity_date**: Corresponds to all Fed activity: regularly scheduled meetings, conference calls, and minute releases.
 - **fed_meeting_date_indicator**: Equals 1 for regularly scheduled meetings/conference calls and 0 for minute releases.
 - **fed_non_scheduled_meeting_date_indicator**: Equals 1 for conference calls and 0 for regularly scheduled meetings.
-- **fed_projection_materials_indicator**: Equals 1 for FOMC meetings accompanied by projection materials (4 times annually, starting in 2009), 0 otherwise.
+- **fed_projection_materials_indicator**: Equals 1 for Fed meetings accompanied by projection materials (4 times annually, starting in 2009), 0 otherwise.
 - **fed_minutes_date_indicator**: Equals 1 for minute releases (usually with a lag after policy meetings), 0 otherwise.
 
 ## Bank of England (BOE)
