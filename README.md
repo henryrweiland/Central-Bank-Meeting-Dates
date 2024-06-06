@@ -163,3 +163,12 @@ Range: 2001-2023 (meetings), 2017-2023 (minutes)
 - **cbrc_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise (there are no unscheduled meetings in sample).
 - **cbrc_minutes_dates_indicator**: Equals 1 for date of CBRC minute release (released with lag), 0 otherwise.
 
+## People's Bank of China (PBOC)
+Range: 2002-2023 (meetings, gap between 2015-17), 2006-2023 (projection materials)
+
+**The PBOC does not publish minutes of MPC meetings.**
+
+- **pboc_activity_date**: Corresponds to all PBOC activity: regularly scheduled meetings and projection materials.
+- **pboc_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise (there are no unscheduled meetings in sample).
+- **pboc_projection_materials_indicator**: Equals 1 for date of PBOC projection material release (relased quarterly), 0 otherwise.
+
