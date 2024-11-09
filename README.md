@@ -2,7 +2,7 @@
 
 See below for notes on each CSV file. **Every central bank operates distinctly, and many of their policies change over time**.
 
-This data is featured in *"Who's the Leader? Evaluating International Monetary Policy Spillovers"* (Weiland & Yeo 2024). We have made this data publicaly available. Please cite this paper if you use the data in this repository.
+This data is featured in *"Who's the Leader? Evaluating International Monetary Policy Spillovers"* (Weiland & Yeo 2024). We have made this data publicly available. Please cite this paper if you use the data in this repository.
 
 A useful resource can also be found on the [BIS website](https://www.bis.org/mc/currency_areas.htm).
 
