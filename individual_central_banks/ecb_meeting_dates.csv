@@ -1,4 +1,4 @@
-"ecb_activity_date","ecb_meeting_date_indicator","ecb_non_scheduled_meeting_indicator","ecb_projection_materials_indicator","ecb_minutes_date_indicator"
+date,ecb_meeting_date_indicator,ecb_non_scheduled_meeting_indicator,ecb_projection_materials_indicator,ecb_minutes_date_indicator
 2000-01-05,1,0,0,0
 2000-01-20,1,0,0,0
 2000-02-03,1,0,0,0

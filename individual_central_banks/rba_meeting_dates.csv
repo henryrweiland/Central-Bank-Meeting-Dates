@@ -1,4 +1,4 @@
-"rba_activity_date","rba_meeting_date_indicator","rba_projection_materials_indicator","rba_minutes_date_indicator"
+date,rba_meeting_date_indicator,rba_projection_materials_indicator,rba_minutes_date_indicator
 2006-05-03,1,0,0
 2006-08-02,1,0,0
 2006-08-04,0,1,0

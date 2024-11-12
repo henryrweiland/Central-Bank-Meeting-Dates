@@ -1,4 +1,4 @@
-"boi_activity_date","boi_meeting_date_indicator","boi_projection_materials_indicator","boi_minutes_dates_indicator"
+date,boi_meeting_date_indicator,boi_projection_materials_indicator,boi_minutes_dates_indicator
 2006-01-29,1,0,0
 2006-04-24,1,0,0
 2006-05-08,0,0,1

@@ -1,4 +1,4 @@
-"cbrc_activity_date","cbrc_meeting_date_indicator","cbrc_minutes_date_indicator"
+date,cbrc_meeting_date_indicator,cbrc_minutes_date_indicator
 2001-06-28,1,0
 2001-08-17,1,0
 2001-09-18,1,0

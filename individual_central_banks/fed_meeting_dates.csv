@@ -1,4 +1,4 @@
-"fed_activity_date","fed_meeting_date_indicator","fed_non_scheduled_meeting_indicator","fed_projection_materials_indicator","fed_minutes_date_indicator"
+date,fed_meeting_date_indicator,fed_non_scheduled_meeting_indicator,fed_projection_materials_indicator,fed_minutes_date_indicator
 1975-01-21,1,0,0,0
 1975-02-19,1,0,0,0
 1975-03-18,1,0,0,0

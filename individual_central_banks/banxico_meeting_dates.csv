@@ -1,4 +1,4 @@
-"banxico_activity_date","banxico_meeting_date_indicator","banxico_projection_materials_indicator","banxico_minutes_dates_indicator"
+date,banxico_meeting_date_indicator,banxico_projection_materials_indicator,banxico_minutes_dates_indicator
 2000-01-18,1,0,0
 2000-04-28,0,1,0
 2000-05-16,1,0,0

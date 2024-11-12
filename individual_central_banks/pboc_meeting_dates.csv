@@ -1,4 +1,4 @@
-"pboc_activity_date","pboc_meeting_date_indicator","pboc_projection_materials_indicator"
+date,pboc_meeting_date_indicator,pboc_projection_materials_indicator
 2002-01-20,1,0
 2002-04-27,1,0
 2002-07-22,1,0

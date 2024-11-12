@@ -1,4 +1,4 @@
-"sarb_activity_date","sarb_meeting_date_indicator","sarb_projection_materials_indicator"
+date,sarb_meeting_date_indicator,sarb_projection_materials_indicator
 2000-01-13,1,0
 2000-03-02,1,0
 2000-03-18,0,1

@@ -1,4 +1,4 @@
-"rbi_activity_date","rbi_meeting_date_indicator","rbi_projection_materials_indicator","rbi_minutes_date_indicator"
+date,rbi_meeting_date_indicator,rbi_projection_materials_indicator,rbi_minutes_date_indicator
 2000-04-27,1,0,0
 2000-05-03,1,0,0
 2000-11-04,1,0,0

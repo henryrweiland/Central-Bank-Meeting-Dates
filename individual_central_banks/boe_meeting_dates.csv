@@ -1,4 +1,4 @@
-"boe_activity_date","boe_meeting_date_indicator","boe_non_scheduled_meeting_indicator","boe_projection_materials_indicator","boe_minutes_date_indicator"
+date,boe_meeting_date_indicator,boe_non_scheduled_meeting_indicator,boe_projection_materials_indicator,boe_minutes_date_indicator
 2000-01-13,1,0,0,0
 2000-01-26,0,0,0,1
 2000-02-10,1,0,0,0

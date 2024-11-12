@@ -1,4 +1,4 @@
-"rbnz_activity_date","rbnz_meeting_date_indicator","rbnz_projection_materials_indicator"
+date,rbnz_meeting_date_indicator,rbnz_projection_materials_indicator
 2000-01-19,1,0
 2000-03-15,1,1
 2000-04-19,1,0

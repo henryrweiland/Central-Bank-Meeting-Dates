@@ -1,4 +1,4 @@
-"bot_activity_date","bot_meeting_date_indicator","bot_non_scheduled_meeting_indicator","bot_minutes_date_indicator"
+date,bot_meeting_date_indicator,bot_non_scheduled_meeting_indicator,bot_minutes_date_indicator
 2000-05-23,1,0,0
 2000-07-28,1,0,0
 2000-09-05,1,0,0

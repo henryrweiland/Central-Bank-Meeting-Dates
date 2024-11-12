@@ -1,4 +1,4 @@
-"boc_activity_date","boc_meeting_date_indicator","boc_projection_materials_indicator"
+date,boc_meeting_date_indicator,boc_projection_materials_indicator
 2000-02-03,1,0
 2000-03-22,1,0
 2000-05-17,1,0
