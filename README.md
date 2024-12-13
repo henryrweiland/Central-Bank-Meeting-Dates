@@ -146,13 +146,12 @@ Range: 2000-2023 (meetings), 2011-2023 (minutes)
 ## Bank of Korea (BOK)
 Range: 2000-2023 (meetings), 2010-2023 (projection materials, minutes)
 
-**The BOK first publishes projection materials in Korean then in English a couple of weeks later. The projection material dates correspond to the initial Korean version. Moreover, it is unclear if the minutes on the website correspond to a Korean version or English version (with an extra lag).**
+**The BOK first publishes projection materials and minutes in Korean then in English a couple of weeks later. Consistent with Thailand above, we did not report these dates.**
 
 - **date**: Corresponds to all BOK activity: regularly scheduled meetings and minute releases.
 - **bok_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise (there is 1 unscheduled meetings in sample).
 - **bok_non_scheduled_meeting_date_indicator**: Equals 1 for non-scheduled meetings and 0 for regularly scheduled meetings.
-- **bok_projection_materials_indicator**: Equals 1 for date of BOK projection material release (relased bi-anually with lag), 0 otherwise. See the note above.
-- **bok_minutes_dates_indicator**: Equals 1 for date of BOK minute release (released with lag), 0 otherwise. See the note above.
+
 
 ## Central Bank of the Republic of China - Taiwan (CBRC)
 Range: 2001-2023 (meetings), 2017-2023 (minutes)
@@ -162,13 +161,4 @@ Range: 2001-2023 (meetings), 2017-2023 (minutes)
 - **date**: Corresponds to all CBRC activity: regularly scheduled meetings and minute releases.
 - **cbrc_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise (there are no unscheduled meetings in sample).
 - **cbrc_minutes_dates_indicator**: Equals 1 for date of CBRC minute release (released with lag), 0 otherwise.
-
-## People's Bank of China (PBOC)
-Range: 2002-2023 (meetings, gap between 2015-17), 2006-2023 (projection materials)
-
-**The PBOC does not publish minutes of MPC meetings.**
-
-- **date**: Corresponds to all PBOC activity: regularly scheduled meetings and projection materials.
-- **pboc_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise (there are no unscheduled meetings in sample).
-- **pboc_projection_materials_indicator**: Equals 1 for date of PBOC projection material release (relased quarterly), 0 otherwise.
 
