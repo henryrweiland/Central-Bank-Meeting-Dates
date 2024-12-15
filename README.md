@@ -56,7 +56,7 @@ Range: 2000-2023.
 
 - **date**: Corresponds to all BOJ activity: regularly/non-regularly scheduled meetings and minute releases.
 - **boj_meeting_date_indicator**: Equals 1 for regularly scheduled meetings, 0 otherwise.
-- **boj_non_scheduled_meeting_date_indicator**: Equals 1 for non-scheduled meetings and 0 for regularly scheduled meetings.
+- **boj_non_scheduled_meeting_indicator**: Equals 1 for non-scheduled meetings and 0 for regularly scheduled meetings.
 - **boj_projection_materials_indicator**: Equals 1 for BOJ meetings accompanied by projection/inflation materials.
 - **boj_minutes_date_indicator**: Equals 1 for minute releases (released with a lag), 0 otherwise.
 
