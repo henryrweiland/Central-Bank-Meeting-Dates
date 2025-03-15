@@ -4,7 +4,7 @@ See below for notes on each CSV file. **Every central bank operates distinctly, 
 
 This data is featured in *"Who's the Leader? Evaluating International Monetary Policy Spillovers"*. We have made this data publicly available. Please cite accordingly:
 
-Weiland, Henry and Yeo, Megan. “Who's the Leader? Evaluating International Monetary Policy Spillovers,” Stanford Undergraduate Economics Journal, vol. 13, no. 1, 2025.
+Weiland, Henry and Yeo, Megan. “Who's the Leader? Evaluating International Monetary Policy Spillovers,” Stanford Undergraduate Economics Journal 13(1).
 
 A useful resource can also be found on the [BIS website](https://www.bis.org/mc/currency_areas.htm).
 
